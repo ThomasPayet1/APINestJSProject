@@ -20,7 +20,4 @@ PAYET Thomas
 
 ABDUL Bilal
 
-## Licence
-
-Ce projet est sous licence libre ou privée selon les conditions précédemment mentionnées dans le répértoire (ajoutez la licence ici si nécessaire).
 
