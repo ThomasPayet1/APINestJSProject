@@ -1,0 +1,27 @@
+meta {
+  name: Create Salle
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{url}}/salleMusculation/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "id": "I140300001",
+      "name": "Stade Anthony Deroin",
+      "addr": "2 Rue Pierre de Coubertin",
+      "dateCreation": "2005-05-17",
+      "comName": "Authie",
+      "equipTypeName": "Court de tennis",
+      "equipTypeFamille": "Court de tennis",
+      "coordonnees": {
+        "lon": -0.43105,
+        "lat": 49.20982
+      }
+  }
+}

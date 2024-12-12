@@ -1,0 +1,15 @@
+meta {
+  name: Delete a Salle by id
+  type: http
+  seq: 3
+}
+
+delete {
+  url: {{url}}/salleMusculation/I140300001
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
